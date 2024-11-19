@@ -27,8 +27,9 @@
   }
 </style>
 </head>
-<body class="manrope-font">
+<body class="manrope-font tracking-wider">
   <header class="container mx-auto">
+    <!-- nav bar -->
     <nav class="mt-5">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -74,8 +75,65 @@
       </div>
   
     </nav>
+    <!-- banner -->
+    <div class="carousel w-full snap-none overflow-x-hidden mt-10 mb-10">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img
+          src="/images/1.png"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      
+     
+    </div>
   </header>
-  <main>
+  <main class="container mx-auto">
+    <!-- radial process -->
+     <section>
+      <div class="text-center m-10 space-y-10 border-y-2 border-dashed pt-10 pb-10">
+        <h1 class="font-extrabold text-4xl">Professional Hockeys Club</h1>
+        <p class="text-[#13131869]">The percentage of Prayer Faculty,Experienced Coach,Senior Player,Training Ground is given below....</p>
+
+      </div>
+      <div class="my-24 gap-10 grid grid-cols-1 lg:grid-cols-4" >
+        <!-- first radial -->
+        <div class="">
+          <div class="radial-progress text-red-500 flex items-center mx-auto" style="--value:87;" role="progressbar"><span class="text-black ">87%</span></div>
+          <div class="text-center">
+            <h2 class="font-semibold text-xl">Prayer Facility</h2>
+            <p>We have much better prayer facility</p>
+          </div>
+        </div>
+        <!-- second radial -->
+        <div>
+          <div class="radial-progress text-[#49D293] flex items-center mx-auto" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
+          <div class="text-center">
+            <h2 class="font-semibold text-xl">Experienced Coach</h2>
+            <p>We have most Experienced Coach</p>
+          </div>
+        </div>
+       <!-- third radial -->
+        <div>
+          <div class="radial-progress text-[#FFB546] flex items-center mx-auto" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
+          <div class="text-center">
+            <h2 class="font-semibold text-xl">Senior Player</h2>
+            <p>Senior Player always well-wisher and supportive</p>
+          </div>
+        </div>
+        <!-- fourth radial -->
+        <div>
+          <div class="radial-progress text-[#4C8DF1] flex items-center mx-auto" style="--value:80;" role="progressbar"><span class="text-black">90%</span></div>
+          <div class="text-center">
+            <h2 class="font-semibold text-xl">Training Ground</h2>
+            <p>We have arranged Training ground</p>
+          </div>
+        </div>
+
+      </div>
+     </section>
 
   </main>
   <footer>
